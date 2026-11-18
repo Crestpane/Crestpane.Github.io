@@ -31,3 +31,13 @@ There is no server. Forms prepare a message that visitors send via Telegram or e
 - Buttons: `.b1` primary (orange), `.b2` outline, `.b3` solid dark, `.cpill` hero CTA. Cards: `.pj`, `.pk`, `.ac`, `.cb`, `.card2`.
 - The hero device mockup is built in HTML/CSS (`.dm-*`), uses the Crestpane mark and real concept thumbnails, and has no baked-in third-party branding.
 - Scroll reveal is gated by the `js` class on `<html>`, so content stays visible if scripts fail.
+
+
+## Version 7 quality pass
+- Replaced all 12 blog thumbnails with original, cohesive editorial artwork, optimized as 900×900 WebP files.
+- Improved descriptive alternative text and intrinsic image dimensions for blog media.
+- Fixed portfolio category deep links, including hyphenated categories such as `E-commerce`.
+- See `QA-REPORT-fa.md` for the checks performed and the remaining owner/deployment checks.
+
+## V17 checklist pass
+See `CHECKLIST-REPORT-fa.md` and `CHECKLIST-LEDGER-fa.csv`. Audit scripts live in `_audit/` (Playwright + Python). Rebuild with `python3 build.py` inside `_generator`.

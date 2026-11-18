@@ -65,3 +65,11 @@ Using #B0430A (5.75:1 on white) for the first two rows would fix them without le
 **3. Not controllable from CSS**
 - The hero ribbon and device mockup use raster and illustration colours (`hero-ribbon.webp`, the `.dm-*` device frame greys). They sit in the hero and were left as they are.
 - Project screenshots keep their own client colours.
+
+
+## Follow-up accessibility refinements (v6)
+- Small accent text in navigation and project/article category labels now uses the deeper brand accent token.
+- The featured industry card description now uses the stronger semantic text token.
+- Footer legal/copyright text now uses the lighter muted token.
+- A global reduced-motion fallback now disables non-essential transitions and animations.
+- These are CSS-level refinements; a fresh automated browser contrast scan is still required before claiming full WCAG AA conformance.
